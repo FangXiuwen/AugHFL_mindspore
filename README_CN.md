@@ -1,7 +1,3 @@
-# 目录
-
-[TOC]
-
 # AugHFL 描述
 
 AugHFL（增强异构联邦学习）是一个联邦学习框架，用于研究模型异构联邦学习中的数据损坏问题：
@@ -186,16 +182,15 @@ python eval.py
 | Parameters                 | Ascend 910                                                   |
 | -------------------------- | ------------------------------------------------------------ |
 | Model Version              | ResNet10 ResNet12 ShuffleNet  Mobilenetv2                    |
-| Resource                   | NPU: 1*Ascend 910, CPU: 24, Video Memory: 32GB, Memory: 256GB |
-| uploaded Date              | 03/25/2023                                                   |
+| Resource                   | NPU: 1*Ascend 910, CPU: 24, Video Memory: 32GB, Memory: 256GB|
+| uploaded Date              | 02/26/2024                                                   |
 | MindSpore Version          | 1.8.1                                                        |
-| Dataset                    | CIFAR-10                                                     |
+| Dataset                    | CIFAR-10-C                                                   |
 | Training Parameters        | train_batch_size: 512    test_batch_size: 512    communication_epoch: 40 |
 | Optimizer                  | Adam                                                         |
-| Loss Function              | SCE                                                          |
-| Loss                       | 3.050116                                                     |
+| Loss Function              | CE                                                           |
 | Speed                      | 1700 ms/step                                                 |
-| Total time                 | 7hours                                                       |
+| Total time                 | 8hours                                                       |
 | Checkpoint for Fine tuning | 56.9M (four .ckpt files)                                     |
 
 ## 推理性能
@@ -204,12 +199,12 @@ python eval.py
 | ------------------- | ------------------------------------------------------------ |
 | Model Version       | ResNet10 ResNet12 ShuffleNet  Mobilenetv2                    |
 | Resource            | NPU: 1*Ascend 910, CPU: 24, Video Memory: 32GB, Memory: 256GB |
-| Uploaded Date       | 03/25/2023                                                   |
+| Uploaded Date       | 02/26/2024                                                   |
 | MindSpore Version   | 1.8.1                                                        |
-| Dataset             | CIFAR-10                                                     |
+| Dataset             | CIFAR-10-C                                                   |
 | batch_size          | 512                                                          |
-| Accuracy            | 74.9075%                                                       |
-| Model for inference | 56.9M (four .air files)                                              |
+| Accuracy            | 70.03%                                                       |
+| Model for inference | 56.9M (four .air files)                                      |
 
 # 随机情况说明
 
