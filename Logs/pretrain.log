@@ -1,0 +1,13 @@
+2023-06-04 22:01:57,671 - pretrain.py[line:135] - INFO: Random Seed and Server Config
+2023-06-04 22:01:57,672 - pretrain.py[line:139] - INFO: Load Participants' Data and Model
+2023-06-04 22:01:57,675 - pretrain.py[line:145] - INFO: {0: array([11841, 19602, 45519, ..., 42613, 43567,  2732]), 1: array([28921, 11971, 15919, ..., 22472, 18283, 36615]), 2: array([36011, 11643, 45353, ..., 22635,  3695,  3124]), 3: array([ 8777,  6584, 42707, ..., 18656, 41141, 31699])}
+2023-06-04 22:01:58,791 - pretrain.py[line:148] - INFO: Pretrain Participants Models
+2023-06-04 22:02:00,823 - pretrain.py[line:163] - INFO: Pretrain the 0th Participant Model with N_training: 50000
+2023-06-04 23:57:27,097 - pretrain.py[line:176] - INFO: Save the 0th Participant Model
+2023-06-04 23:57:29,323 - pretrain.py[line:163] - INFO: Pretrain the 1th Participant Model with N_training: 50000
+2023-06-05 01:53:34,275 - pretrain.py[line:176] - INFO: Save the 1th Participant Model
+2023-06-05 01:53:36,225 - pretrain.py[line:163] - INFO: Pretrain the 2th Participant Model with N_training: 50000
+2023-06-05 04:02:33,665 - pretrain.py[line:176] - INFO: Save the 2th Participant Model
+2023-06-05 04:02:35,677 - pretrain.py[line:163] - INFO: Pretrain the 3th Participant Model with N_training: 50000
+2023-06-05 06:11:32,667 - pretrain.py[line:176] - INFO: Save the 3th Participant Model
+2023-06-05 06:11:32,756 - pretrain.py[line:192] - INFO: Evaluate Models
